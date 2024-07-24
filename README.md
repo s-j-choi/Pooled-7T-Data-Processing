@@ -3,20 +3,19 @@
 - The scripts are written in BASH and have been tested on XUBUNTU 18.04 LTS VirtualBox. They should also be compatible with XUBUNTU/UBUNTU 18.04 LTS running on actual Linux machines.
 
 - Dependencies
-  The scripts require the following software and libraries:
-
-  - dcm2niix
-  - FSL
-  - ANTs
-  - Nibabel
-  - Python
+  - The scripts require the following software and libraries:
+    - dcm2niix
+    - FSL
+    - ANTs
+    - Nibabel
+    - Python
 
 - Functionalities
-  The scripts carry out the following operations:
-  - Conversion of Simens dicom files and Philips ParRec files
-  - Pre-processing and post-processing of MP2RAGE files
-  - Intensity normalization of FLAIR, along with pre- and post-processing
-  - Pre-processing and post-processing of GRE
+  - The scripts carry out the following operations:
+    - Conversion of Simens dicom files and Philips ParRec files
+    - Pre-processing and post-processing of MP2RAGE files
+    - Intensity normalization of FLAIR, along with pre- and post-processing
+    - Pre-processing and post-processing of GRE
 
 - Apart from the scripts, the current processing procedure also utilizes several external tools.
   - MatLab (tested on 2019a) is required to process GRE files for R2* map, QSM, and MP2RAGE T1 map.
