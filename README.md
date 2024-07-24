@@ -15,10 +15,10 @@
 
 - Apart from the scripts, the current processing procedure also utilizes several external tools.
   - MatLab (tested on 2019a) is required to process GRE files for R2* map, QSM, and MP2RAGE T1 map.
-  - JHUKKI QSM Toolbox is required to process GRE images for QSM processing.
+  - JHUKKI QSM Toolbox (Dr. Xu Li) is required to process GRE images for QSM processing.
     https://github.com/xuli99/JHUKKI_QSM_Toolbox
   - T1 processing MatLab tool by Jose P. Marques.
     https://github.com/JosePMarques/MP2RAGE-related-scripts
-  - A Docker tool is required to process filtered phase images using a Laplacian-based phase unwrapping algorithm and Gaussian high-pass filtering. https://github.com/blakedewey/phase_unwrap
-  - A Python tool for Least Trimmed Squared (LTS) -based intensity normalization 
+  - A Docker tool (Dr. Blake Dewey) is required to process filtered phase images using a Laplacian-based phase unwrapping algorithm and Gaussian high-pass filtering. https://github.com/blakedewey/phase_unwrap
+  - A Python tool for Least Trimmed Squared (LTS) algorithm-based intensity normalization 
 
