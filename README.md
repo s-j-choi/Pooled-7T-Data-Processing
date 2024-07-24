@@ -19,6 +19,5 @@
     https://github.com/xuli99/JHUKKI_QSM_Toolbox
   - T1 processing MatLab tool by Jose P. Marques.
     https://github.com/JosePMarques/MP2RAGE-related-scripts
-  - A Docker tool is required to process filtered phase images using a Laplacian-based phase unwrapping algorithm and Gaussian high-pass filtering.  
-    https://github.com/blakedewey/phase_unwrap
+  - A Docker tool is required to process filtered phase images using a Laplacian-based phase unwrapping algorithm and Gaussian high-pass filtering. https://github.com/blakedewey/phase_unwrap
 
