@@ -1,17 +1,23 @@
-# Pooled-7T-Data-Processing
-- The current collection of processing scripts has been used to process multi-site data. 
-- The scripts are written in BASH and tested on XUBUNTU 18.04 LTS. They should work on UBUNTU 18.04 LTS as well.
-- The scripts require the followings:
-  - dcm2niix
-  - FSL
-  - ANTs
-  - Nibabel
-  - Python
-- The scripts perform:
-  - file conversion of Simens dicom files and Philips ParRec files
-  - MP2RAGE files pre- and post-processing
-  - FLAIR intensity normalization, pre- and post-processing
-  - GRE pre- and post-processing  
+#Pooled 7T MRI Data Processing
+This repository contains a collection of processing scripts that have been utilized for the processing of multi-site MRI data.
+
+The scripts are written in BASH and have been tested on XUBUNTU 18.04 LTS VirtualBox. They should also be compatible with XUBUNTU/UBUNTU 18.04 LTS running on actual Linux machines.
+
+Dependencies
+The scripts require the following software and libraries:
+
+dcm2niix
+FSL
+ANTs
+Nibabel
+Python
+Functionalities
+The scripts carry out the following operations:
+
+Conversion of Simens dicom files and Philips ParRec files
+Pre-processing and post-processing of MP2RAGE files
+Intensity normalization of FLAIR, along with pre- and post-processing
+Pre-processing and post-processing of GRE
 
 - Apart from the scripts, the current processing procedure also utilizes several external tools.
   - MatLab (tested on 2019a) is required to process GRE files for R2* map, QSM, and MP2RAGE T1 map.
