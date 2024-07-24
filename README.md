@@ -1,4 +1,4 @@
-- This repository contains a collection of processing scripts that have been utilized for the processing of multi-site MRI data. See "Processing flow schematic diagram."
+- This repository contains a collection of processing scripts that have been utilized for the processing of multi-site MRI data. See "Processing flow schematic diagram" and "Processing flow."
 
 - The scripts are written in BASH and have been tested on XUBUNTU 18.04 LTS VirtualBox. They should also be compatible with XUBUNTU/UBUNTU 18.04 LTS running on actual Linux machines.
 
