@@ -24,5 +24,5 @@
   - T1 processing MatLab tool by Jose P. Marques.
     https://github.com/JosePMarques/MP2RAGE-related-scripts
   - A Docker tool (Dr. Blake Dewey) is required to process filtered phase images using a Laplacian-based phase unwrapping algorithm and Gaussian high-pass filtering. https://github.com/blakedewey/phase_unwrap
-  - A Python tool for Least Trimmed Squared (LTS) algorithm-based intensity normalization 
+  - A Python tool for Least Trimmed Squares (LTS) algorithm-based intensity normalization 
 
